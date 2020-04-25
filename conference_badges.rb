@@ -17,7 +17,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speakers) 
+<<<<<<< HEAD
   speakers.map do |name| 
+=======
+  speakers.each do |name| 
+>>>>>>> 85f9b074a1ee129b5028606898f06cb5b769b661
 
     badge_maker(name)
   end 
